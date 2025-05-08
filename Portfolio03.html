@@ -1,0 +1,529 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Model Portfolio &amp; Appointments
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Open+Sans&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #ffffff;
+      scroll-behavior: smooth;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+ </head>
+ <body class="min-h-screen flex flex-col text-gray-800">
+  <header class="border-b border-amber-300">
+   <nav class="container mx-auto flex items-center justify-between py-6 px-4 md:px-0">
+    <div class="text-3xl font-playfair text-amber-700 tracking-wide select-none">
+     <span class="text-amber-900">
+      Elara
+     </span>
+     Model
+    </div>
+    <ul class="hidden md:flex space-x-10 text-amber-700 font-semibold tracking-wide" style="">
+     <li>
+      <a class="hover:text-amber-900 transition" href="#shots" style="">
+       Shots
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-amber-900 transition" href="#info">
+       Information
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-amber-900 transition" href="#appointments">
+       Appointments
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-amber-900 transition" href="#booking">
+       Booking
+      </a>
+     </li>
+    </ul>
+    <button aria-label="Toggle menu" class="md:hidden text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-400" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </nav>
+   <div class="hidden md:hidden bg-amber-50 border-t border-amber-200" id="mobile-menu">
+    <ul class="flex flex-col space-y-4 p-4 text-amber-700 font-semibold tracking-wide">
+     <li>
+      <a class="block hover:text-amber-900 transition" href="#shots">
+       Shots
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-amber-900 transition" href="#info">
+       Information
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-amber-900 transition" href="#appointments">
+       Appointments
+      </a>
+     </li>
+     <li>
+      <a class="block hover:text-amber-900 transition" href="#booking">
+       Booking
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <main class="flex-grow container mx-auto px-4 md:px-0 py-10 max-w-7xl">
+   <!-- Hero Section -->
+   <section class="mb-16 flex flex-col md:flex-row items-center md:items-start gap-10">
+    <div class="md:w-1/2 flex justify-center md:justify-start">
+     <img alt="Portrait of model Elara with warm natural light, wearing a beige linen dress, standing against a textured warm brown wall" class="rounded-lg shadow-lg max-w-full h-auto object-cover" height="640" loading="lazy" src="https://storage.googleapis.com/a1aa/image/3d2985a7-e93f-44b9-93c1-325a71acdcf3.jpg" width="480"/>
+    </div>
+    <div class="md:w-1/2 space-y-6">
+     <h1 class="text-5xl font-playfair font-extrabold text-amber-800 leading-tight">
+      Elara
+      <span class="text-amber-600">
+       Montgomery
+      </span>
+     </h1>
+     <p class="text-lg text-amber-700 max-w-xl leading-relaxed">
+      A versatile professional model specializing in editorial, commercial, and runway work. With a passion for storytelling through fashion and a warm, approachable presence, Elara brings every shoot to life with elegance and authenticity.
+     </p>
+     <div class="flex space-x-6 text-amber-700 text-xl">
+      <a aria-label="Email Elara" class="hover:text-amber-900 transition" href="mailto:elara.montgomery@example.com">
+       <i class="fas fa-envelope">
+       </i>
+      </a>
+      <a aria-label="Instagram profile" class="hover:text-amber-900 transition" href="https://instagram.com/elara.model" rel="noopener" target="_blank">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a aria-label="LinkedIn profile" class="hover:text-amber-900 transition" href="https://www.linkedin.com/in/elara-montgomery" rel="noopener" target="_blank">
+       <i class="fab fa-linkedin">
+       </i>
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- Shots Gallery -->
+   <section class="mb-20" id="shots">
+    <h2 class="text-4xl font-playfair font-bold text-amber-800 mb-8 border-b border-amber-300 pb-2 max-w-max">
+     Portfolio Shots
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Editorial shot of model Elara wearing a flowing amber dress, standing on a rocky beach at sunset with warm golden light" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ae983476-9265-4f7e-8d8c-1a4c4a09c86b.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Sunset Editorial
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Marco Diaz
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Commercial shot of model Elara wearing casual warm-toned clothing, smiling in an urban street setting with soft natural light" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ce19da69-c4bc-4006-7a1b-b532ef8f4910.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Urban Casual
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Lena Park
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Runway shot of model Elara walking confidently in an elegant amber evening gown under warm runway lights" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/a4f163a2-fb8e-4baf-a027-2447a8316893.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Evening Runway
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Julian Kim
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Beauty shot of model Elara with natural makeup and soft warm lighting highlighting her facial features" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/13ad4c57-2ef0-4667-34e3-6e4f15d1df8d.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Natural Beauty
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Sofia Martinez
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Fashion shot of model Elara wearing layered warm-toned outfit with textured fabrics in a studio setting" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c0e80d30-a066-4e30-de53-c39a0f13b9af.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Layered Fashion
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Daniel Lee
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Outdoor shot of model Elara standing in a field during golden hour, wearing a warm toned knit sweater and soft breeze" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/56625b8c-cb3f-4358-cded-65c5ff88b7e1.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Golden Hour
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Rachel Nguyen
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Black and white artistic portrait of model Elara with dramatic shadows and warm highlights" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fca6e1b7-07e0-49ee-906a-8c4bd279b62f.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Artistic Monochrome
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Victor Chen
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Studio shot of model Elara posing against a warm amber backdrop with softbox lighting" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/eea9f113-82b8-451b-dfed-267be6c6f448.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Warm Studio
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Hannah Lee
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Casual lifestyle shot of model Elara sitting in a cozy coffee shop wearing warm earth tones and smiling" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/f944db1d-7e70-46d4-f5ee-c529457e21de.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Cozy Coffee Shop
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Olivia Grant
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="High fashion shot of model Elara wearing bold amber accessories and a structured outfit in a studio" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/ccc8fa29-afaf-4b44-9358-e081909abe6d.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Bold Accessories
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Marcus Bell
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Outdoor editorial shot of model Elara in a flowing amber dress walking through a sunlit forest path" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/2260e2a4-1987-48d2-7691-1eb136db1409.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Forest Editorial
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Emily Carter
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Close-up beauty shot of model Elara with warm-toned makeup and soft lighting highlighting her eyes and lips" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/93b76b33-e73d-430e-5812-8513dbb5ab11.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Warm Makeup Close-up
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Sophia Lin
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Runway shot of model Elara walking confidently in a textured amber gown with dramatic lighting" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/bf16ea0b-b0ae-4671-e019-7ef5607a699c.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Textured Gown Runway
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Liam Foster
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Casual outdoor shot of model Elara wearing a warm amber sweater, smiling with autumn leaves in background" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/80d5a551-243c-47cb-1085-4631de15ff03.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Autumn Smile
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Ava Morgan
+       </p>
+      </div>
+     </div>
+     <div class="group relative rounded-lg overflow-hidden shadow-lg cursor-pointer">
+      <img alt="Studio portrait of model Elara with warm amber backdrop and soft diffused lighting highlighting her face" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/40433652-9dd0-4595-0d63-a33ddc808117.jpg" width="400"/>
+      <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-amber-900/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+       <h3 class="text-white font-semibold text-lg">
+        Soft Studio Portrait
+       </h3>
+       <p class="text-amber-200 text-sm mt-1">
+        Shot by Noah Bennett
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Information Section -->
+   <section class="mb-20 max-w-4xl mx-auto" id="info">
+    <h2 class="text-4xl font-playfair font-bold text-amber-800 mb-8 border-b border-amber-300 pb-2 max-w-max mx-auto">
+     Information
+    </h2>
+    <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-8 text-amber-700" style="font-weight: 600;">
+     <div>
+      <dt class="font-semibold text-lg mb-1">
+       Full Name
+      </dt>
+      <dd>
+       Elara Montgomery
+      </dd>
+     </div>
+     <div>
+      <dt class="font-semibold text-lg mb-1">
+       Height
+      </dt>
+      <dd>
+       5'9" (175 cm)
+      </dd>
+     </div>
+     <div>
+      <dt class="font-semibold text-lg mb-1">
+       Measurements
+      </dt>
+      <dd style="font-weight: 700;">
+       34-25-36 (86-64-91 cm)
+      </dd>
+     </div>
+     <div>
+      <dt class="font-semibold text-lg mb-1">
+       Hair Color
+      </dt>
+      <dd>
+       Warm Chestnut Brown
+      </dd>
+     </div>
+     <div>
+      <dt class="font-semibold text-lg mb-1">
+       Eye Color
+      </dt>
+      <dd>
+       Amber Hazel
+      </dd>
+     </div>
+     <div>
+      <dt class="font-semibold text-lg mb-1">
+       Languages
+      </dt>
+      <dd>
+       English, French, Spanish
+      </dd>
+     </div>
+     <div class="sm:col-span-2">
+      <dt class="font-semibold text-lg mb-1">
+       Biography
+      </dt>
+      <dd class="text-amber-800 leading-relaxed">
+       Elara Montgomery is a professional model with over 8 years of experience in editorial, commercial, and runway modeling. Known for her warm presence and ability to adapt to diverse styles, she has worked with top photographers and brands worldwide. Elara is passionate about sustainable fashion and often collaborates on projects that promote eco-consciousness in the industry.
+      </dd>
+     </div>
+    </dl>
+   </section>
+   <!-- Appointments Section -->
+   <section class="mb-20 max-w-5xl mx-auto" id="appointments">
+    <h2 class="text-4xl font-playfair font-bold text-amber-800 mb-8 border-b border-amber-300 pb-2 max-w-max mx-auto">
+     Upcoming Appointments
+    </h2>
+    <div class="space-y-6">
+     <article class="flex flex-col sm:flex-row items-start sm:items-center justify-between border border-amber-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow bg-amber-50">
+      <div class="flex items-center space-x-4 mb-4 sm:mb-0">
+       <img alt="Logo of fashion brand 'Luxe Amber' in warm amber tones" class="w-20 h-20 rounded-md object-cover" height="80" loading="lazy" src="https://storage.googleapis.com/a1aa/image/14c3114d-e7ee-4c7d-e6db-3109d5a9cb5c.jpg" width="80"/>
+       <div>
+        <h3 class="text-xl font-semibold text-amber-800">
+         Luxe Amber Campaign
+        </h3>
+        <p class="text-amber-700">
+         Editorial photoshoot for Fall 2024 collection
+        </p>
+       </div>
+      </div>
+      <time class="text-amber-900 font-semibold text-lg whitespace-nowrap" datetime="2024-07-15T09:00">
+       July 15, 2024 - 9:00 AM
+      </time>
+     </article>
+     <article class="flex flex-col sm:flex-row items-start sm:items-center justify-between border border-amber-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow bg-amber-50">
+      <div class="flex items-center space-x-4 mb-4 sm:mb-0">
+       <img alt="Logo of commercial brand 'Golden Glow' with warm golden colors" class="w-20 h-20 rounded-md object-cover" height="80" loading="lazy" src="https://storage.googleapis.com/a1aa/image/d1509522-a494-46a7-1076-6c6237d92a12.jpg" width="80"/>
+       <div>
+        <h3 class="text-xl font-semibold text-amber-800">
+         Golden Glow Commercial
+        </h3>
+        <p class="text-amber-700">
+         TV commercial shoot for skincare product
+        </p>
+       </div>
+      </div>
+      <time class="text-amber-900 font-semibold text-lg whitespace-nowrap" datetime="2024-08-02T14:30">
+       August 2, 2024 - 2:30 PM
+      </time>
+     </article>
+     <article class="flex flex-col sm:flex-row items-start sm:items-center justify-between border border-amber-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow bg-amber-50">
+      <div class="flex items-center space-x-4 mb-4 sm:mb-0">
+       <img alt="Logo of fashion event 'Amber Runway Gala' with warm amber and brown tones" class="w-20 h-20 rounded-md object-cover" height="80" loading="lazy" src="https://storage.googleapis.com/a1aa/image/4a0bc9af-7978-4e02-3dfe-6fde65904461.jpg" width="80"/>
+       <div>
+        <h3 class="text-xl font-semibold text-amber-800">
+         Amber Runway Gala
+        </h3>
+        <p class="text-amber-700">
+         Runway show featuring upcoming designers
+        </p>
+       </div>
+      </div>
+      <time class="text-amber-900 font-semibold text-lg whitespace-nowrap" datetime="2024-09-10T19:00">
+       September 10, 2024 - 7:00 PM
+      </time>
+     </article>
+     <article class="flex flex-col sm:flex-row items-start sm:items-center justify-between border border-amber-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow bg-amber-50">
+      <div class="flex items-center space-x-4 mb-4 sm:mb-0">
+       <img alt="Logo of sustainable fashion brand 'Earth Amber' in warm amber and brown colors" class="w-20 h-20 rounded-md object-cover" height="80" loading="lazy" src="https://storage.googleapis.com/a1aa/image/cedb65d3-3518-4d67-e1db-1a0fbb27754c.jpg" width="80"/>
+       <div>
+        <h3 class="text-xl font-semibold text-amber-800">
+         Earth Amber Lookbook
+        </h3>
+        <p class="text-amber-700">
+         Lookbook shoot for sustainable fashion line
+        </p>
+       </div>
+      </div>
+      <time class="text-amber-900 font-semibold text-lg whitespace-nowrap" datetime="2024-10-05T11:00">
+       October 5, 2024 - 11:00 AM
+      </time>
+     </article>
+     <article class="flex flex-col sm:flex-row items-start sm:items-center justify-between border border-amber-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow bg-amber-50">
+      <div class="flex items-center space-x-4 mb-4 sm:mb-0">
+       <img alt="Logo of luxury jewelry brand 'Amber Luxe' in warm golden amber tones" class="w-20 h-20 rounded-md object-cover" height="80" loading="lazy" src="https://storage.googleapis.com/a1aa/image/a578a58d-f12e-4fb5-72e0-0012eaa1a9c9.jpg" width="80"/>
+       <div>
+        <h3 class="text-xl font-semibold text-amber-800">
+         Amber Luxe Jewelry Shoot
+        </h3>
+        <p class="text-amber-700">
+         Campaign photoshoot for new jewelry collection
+        </p>
+       </div>
+      </div>
+      <time class="text-amber-900 font-semibold text-lg whitespace-nowrap" datetime="2024-11-12T10:00">
+       November 12, 2024 - 10:00 AM
+      </time>
+     </article>
+    </div>
+   </section>
+   <!-- Booking Section -->
+   <section class="mb-20 max-w-3xl mx-auto" id="booking">
+    <h2 class="text-4xl font-playfair font-bold text-amber-800 mb-8 border-b border-amber-300 pb-2 max-w-max mx-auto">
+     Booking
+    </h2>
+    <form class="bg-amber-50 border border-amber-200 rounded-lg p-8 shadow-md" action="#" method="POST" novalidate>
+     <div class="mb-6">
+      <label class="block text-amber-700 font-semibold mb-2" for="name">
+       Full Name
+      </label>
+      <input class="w-full border border-amber-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-500 transition" id="name" name="name" placeholder="Your full name" required="" type="text"/>
+     </div>
+     <div class="mb-6">
+      <label class="block text-amber-700 font-semibold mb-2" for="email">
+       Email Address
+      </label>
+      <input class="w-full border border-amber-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-500 transition" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+     </div>
+     <div class="mb-6">
+      <label class="block text-amber-700 font-semibold mb-2" for="phone">
+       Phone Number
+      </label>
+      <input class="w-full border border-amber-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-500 transition" id="phone" name="phone" placeholder="+1 234 567 8900" type="tel"/>
+     </div>
+     <div class="mb-6">
+      <label class="block text-amber-700 font-semibold mb-2" for="date">
+       Preferred Date
+      </label>
+      <input class="w-full border border-amber-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-500 transition" id="date" name="date" required="" type="date"/>
+     </div>
+     <div class="mb-6">
+      <label class="block text-amber-700 font-semibold mb-2" for="time">
+       Preferred Time
+      </label>
+      <input class="w-full border border-amber-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-500 transition" id="time" name="time" required="" type="time"/>
+     </div>
+     <div class="mb-6">
+      <label class="block text-amber-700 font-semibold mb-2" for="details">
+       Additional Details
+      </label>
+      <textarea class="w-full border border-amber-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-amber-500 transition resize-y" id="details" name="details" placeholder="Please provide any relevant information or requests" rows="4"></textarea>
+     </div>
+     <button class="bg-amber-700 text-white font-semibold px-6 py-3 rounded-md hover:bg-amber-800 transition" type="submit">
+      Submit Booking Request
+     </button>
+    </form>
+   </section>
+  </main>
+  <footer class="bg-amber-100 border-t border-amber-300 py-8 mt-auto">
+   <div class="container mx-auto px-4 md:px-0 text-center text-amber-700 text-sm select-none">
+    © 2024 Elara Montgomery. All rights reserved.
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Smooth scroll for nav links
+    document.querySelectorAll('ul.hidden.md\\:flex.space-x-10.text-amber-700.font-semibold.tracking-wide a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetID = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetID);
+        if (targetSection) {
+          targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Also smooth scroll for mobile menu links
+    document.querySelectorAll('#mobile-menu a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetID = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetID);
+        if (targetSection) {
+          targetSection.scrollIntoView({ behavior: 'smooth' });
+          // Close mobile menu after click
+          mobileMenu.classList.add('hidden');
+        }
+      });
+    });
+  </script>
+ </body>
+</html>
